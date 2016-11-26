@@ -1,0 +1,50 @@
+body {
+	margin:0;
+	background-image:url(images/wood-tabel-clean.gif);
+	background-size:cover;
+	height:100%;
+	transition: opacity 1.5s ease;
+	-webkit-user-select: none;
+	position: relative;
+}
+ 
+.background {
+	background-color: #947D5D;
+	width: 800px;
+	height: 600px;
+	opacity: 0.5;
+	margin: 0;
+	position: absolute;
+	top: 60.4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h1 {
+	font-family: RiotSquadNF; 
+	font-size:40px;
+	color:#fefefe;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.text { 
+	width: 800px;
+	height: 600px;
+	margin: 0;
+	position: absolute;
+	top: 60.4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+p {
+	color:#fefefe;
+	font-family: RiotSquadNF; 
+	font-size: 22px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}

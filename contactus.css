@@ -1,0 +1,32 @@
+body {
+	margin:0;
+	background-image:url(images/wood-tabel-clean.gif);
+	background-size:cover;
+	height:100%;
+	transition: opacity 1.5s ease;
+	-webkit-user-select: none;
+	position: relative;
+}
+
+.background {
+	background-color: #9C7A4B;
+	width: 800px;
+	height: 600px;
+	opacity: 0.5;
+	margin: 0;
+	position: absolute;
+	top: 60.4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.text { 
+	margin: 0;
+	position: absolute;
+	top: 60.4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: RiotSquadNF; 
+	font-size: 50px;
+	text-align: center;
+	color: #fefefe
+}

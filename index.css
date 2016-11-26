@@ -1,0 +1,60 @@
+/* general */
+html {
+	height:100%;
+}
+section {
+	flex:1;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction: column;
+	background-image:url(images/backpic.jpg);
+	margin:0;
+	background-size:cover;
+	background-position: center;
+	transition: opacity 1.5s ease;
+	-webkit-user-select: none;
+}
+.text{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.main-text{
+	font-family:dosis;
+	font-size:40px;
+	color:#fefefe;
+}
+.sub-text{
+	font-family:dosis light;
+	font-size:25px;
+	color:#fefefe;
+}
+.logo{
+	width:170px;
+	transform: rotate(0);
+	transition: all 1.3s ease;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.spin-logo .logo {
+	transform: rotateY(360deg);
+}
+/* end general */
+
+/* mobile display */
+@media screen and (max-width: 480px) {
+	/* main section mobile */
+	.main-text{
+		font-size:39px;
+	}
+	.sub-text{
+		font-size:20px;
+	}
+	.logo{
+		width:156px;
+
+	}
+	/* end main section */
+}

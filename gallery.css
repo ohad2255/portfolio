@@ -1,0 +1,54 @@
+body {
+	margin:0;
+	background-image:url(images/wood-tabel-clean.gif);
+	background-size:cover;
+	height:100%;
+	}
+
+#paper { 
+	position: absolute;
+	background-image:url(images/paper.jpg);
+	width: 1100px;
+	height: 800px;
+	margin-top: 200px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	}
+
+#gallery {
+	margin-left: 15px;
+	margin-top: 160px; 
+	}
+
+.pen-cup {
+	position: fixed;
+	z-index: 1;
+	width: 170px;
+	top: 60px;
+	left: 230px;
+	}
+
+	.coffee-cup {
+	width: 160px;
+	position: fixed;
+	z-index: 2;
+	top: 150px;
+	left: 1200px;
+	}
+
+	.note{
+	width: 450px;
+	position: fixed;
+	z-index: 3;
+	top: 400px;
+	left: -10px;
+	}
+	.drawing-tool{
+	width: 190px;
+	position: fixed;
+	z-index: 4;
+	top: 440px;
+	left: 1150px;
+	}
+
+	
