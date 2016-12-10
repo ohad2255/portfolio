@@ -3,23 +3,88 @@ body {
 	background-image:url(images/wood-tabel-clean.gif);
 	background-size:cover;
 	height:100%;
+	position: relative;
 	}
-
-#paper { 
+#logo {
 	position: absolute;
-	background-image:url(images/paper.jpg);
+	top:-11%;
+	left:-6%;
+	width: 300px;
+}
+
+/*#paper { 
+	position: absolute;
+	/*background-image:url(images/paper.jpg);margin-top: 200px;
 	width: 1100px;
 	height: 800px;
-	margin-top: 200px;
+	margin-top: -50px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	} */
+#gallery {
+	width: 100%;
+	position: relative;
+	}
+
+	#vodka {
+    position: absolute;
+    margin-top: 11%;
 	margin-left: 50%;
 	transform: translate(-50%);
 	}
 
-#gallery {
-	margin-left: 15px;
-	margin-top: 160px; 
+	#Outdoor-Advertising {
+	position: absolute;
+ 	top: 15%;
+	left: 14%;
 	}
 
+	#Book-MockUp {
+	position: absolute;
+ 	top: 20%;
+	right: 11%;
+	}
+
+	#Stationery {
+	position: absolute;
+	top: 60%;
+	left: 6%;	
+	}
+
+	#poster {
+	position: absolute;
+	top: 62%;
+	right: 8%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .pen-cup {
 	position: fixed;
 	z-index: 1;
@@ -49,6 +114,6 @@ body {
 	z-index: 4;
 	top: 440px;
 	left: 1150px;
-	}
+	}*/
 
 	

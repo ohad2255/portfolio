@@ -8,11 +8,17 @@ body {
 	position: relative;
 }
 
+#logo {
+	position: absolute;
+	top:-11%;
+	left:-6%;
+	width: 300px;
+}
+
 .background {
 	background-color: #916527;
-	width: 800px;
+	width: 950px;
 	height: 600px;
-	opacity: 0.5;
 	margin: 0;
 	position: absolute;
 	top: 60.4%;
@@ -22,11 +28,31 @@ body {
 .text { 
 	margin: 0;
 	position: absolute;
-	top: 60.4%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: RiotSquadNF; 
-	font-size: 50px;
+	font-size: 45px;
 	text-align: center;
 	color: #fefefe
+}
+.footer{
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fefefe;
+	font-size:12pt;
+}
+.mail-link{
+	color: #fefefe;
+}
+.about-link{
+	color: #fefefe;
+}
+.gallery-link{
+	color: #fefefe;
+}
+.home-link{
+	color: #fefefe;
 }
