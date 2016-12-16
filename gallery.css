@@ -1,16 +1,62 @@
 body {
 	margin:0;
-	background-image:url(images/wood-tabel-clean.gif);
+	background-image:url(images/wood-tabel-gallery.png);
 	background-size:cover;
 	height:100%;
 	position: relative;
 	}
+
 #logo {
 	position: absolute;
 	top:-11%;
 	left:-6%;
 	width: 300px;
 }
+
+.main {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+#left-col {
+height: 100%;
+}
+
+#left-up {
+
+}
+
+#left-down {
+
+}
+
+#middel {
+height: 100%;
+}
+
+#right-col {
+height: 100%;
+}
+
+#right-up {
+
+}
+
+#right-down {
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*#paper { 
 	position: absolute;
@@ -20,7 +66,7 @@ body {
 	margin-top: -50px;
 	margin-left: 50%;
 	transform: translate(-50%);
-	} */
+	} 
 #gallery {
 	width: 100%;
 	position: relative;
@@ -55,7 +101,7 @@ body {
 	position: absolute;
 	top: 62%;
 	right: 8%;
-	}
+	}*/
 
 
 
