@@ -27,7 +27,8 @@ section {
 	color:#fefefe;
 }
 .sub-text{
-	font-family:dosis light;
+	font-family:dosis;
+	font-weight:lighter;
 	font-size:25px;
 	color:#fefefe;
 }
