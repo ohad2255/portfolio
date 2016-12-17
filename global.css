@@ -14,6 +14,11 @@ body {
 body.document-ready {
 	opacity: 1;
 }
+.headline{
+	font-family: dosis;
+	font-size: 40px;
+	color: #fefefe
+}
 /* end general */
 
 /* navigation */

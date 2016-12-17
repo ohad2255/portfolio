@@ -24,13 +24,17 @@ body {
 	transform: translate(-50%, -50%);
 }
 h1 {
-	font-family: RiotSquadNF; 
 	font-size:40px;
 	color:#fefefe;
 	position: absolute;
 	top: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+#main-text
+{
+	font-family: Oleo Script;
+	font-size: 16pt;
 }
 .text { 
 	width: 800px;
